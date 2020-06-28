@@ -1,5 +1,5 @@
 <div align=center>
-![Last Adventure]() 
+![Trashpanda-Team]() 
  
 # -_TRASHPANDA TEAM_-<br>_UNIWERSITY_
 
