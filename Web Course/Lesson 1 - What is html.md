@@ -43,7 +43,7 @@ Of course in Internet :smirk:<br>Use W3School website. They have a lot of nice e
 ___
 ## Homework
 0. **Do not use CSS yet. HTML only and tag attributes. if you have any cool ideas, go ahead and add them to the tasks. Will be more interesting.**
-1. **Shopping list.** Real simple list with products to buy and products bought. Bought products name should be crossed out. Before product name add number to show how many product is needed to buy and make this number bold (bold text). 
+1. **Shopping list** Real simple list with products to buy and products bought. Bought products name should be crossed out. Before product name add number to show how many product is needed to buy and make this number bold (bold text). 
 2. **Business card** or profile. Create three example cards about yourself where you set first name, last name, birthday, address, phone number, hobbies, favorite colors, etc. More better. Information of course do not must be real. **Important!** Use a lot of different tags. More better :wink:.
 3. **Login panel**. Create web page for login to account. People should insert login, password and click login button. Add "Forgot password?" too. It doesn't have to work yet. We just creating view part.
 4. **Registry form**. Create a form to register a new account. It doesn't have to work yet. We just creating view part. But! User should have posibility inserting his data, selectiong something from list and checking few checkboxes. Like before, more better. Example:
