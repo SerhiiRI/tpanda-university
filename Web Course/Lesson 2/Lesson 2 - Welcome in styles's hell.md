@@ -335,7 +335,7 @@ ___
 
 ## ***HOMEWORKS***
 ### Lab 1:
-Set cool picture (best picture size will be 1920x1080) as a background but with not repeat, don't move with scroll and 100% window size.
+Set cool picture (best picture size will be 1920x1080) as a background but with not repeat, don't move with scroll and 100% window size. As a text copy and paste lorem ipsum. A lot of lorem ipsum, the page should be scrollable : D.
 
 ### Lab 2:
 Make a lot of different buttons using different tags and styles. Tags and styles can be repeated. Be creative and combine parameters : D. And do not forget about hover and transition.
