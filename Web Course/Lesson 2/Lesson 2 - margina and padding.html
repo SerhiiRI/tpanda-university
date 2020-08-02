@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin, padding and hover</title>
+</head>
+<style>
+    /* Different browsers sometimes have default margin or padding so good on start is set this parameters for html and body with 0 */
+    
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        text-align: center;
+    }
+    
+    h1 {
+        background-color: coral;
+        border: dotted 2px black;
+    }
+    
+    .padd {
+        padding: 20px;
+    }
+    
+    .marg {
+        margin: 20px;
+    }
+    
+    .btn {
+        min-width: 200px;
+        width: 20%;
+        padding: 20px;
+        /* automatic margin calculate how many margin is needed on right and left to make component on 100% width to parent component */
+        margin: auto;
+        background-color: chartreuse;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        transition: all 0.2s;
+    }
+    
+    .btn:hover {
+        /* On mouse move on */
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        /* padding: top/bottom left/right */
+        padding: 20px 60px;
+    }
+</style>
+
+<body>
+    <h1 class="marg">Margin is empty space around component</h1>
+    <h1 class="padd">Padding is fill space inside component</h1>
+    <div class="btn">Move on me for hover</div>
+</body>
+
+</html>

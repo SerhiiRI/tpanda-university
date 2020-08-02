@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        /* on start we can set width and height on 100%
+        flex work automaticly using this size 
+        so if we want to move component to center
+        we need full size of browser's window */
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container,
+    .pills {
+        /* now we can set height 100%, default height is height of component content 
+        so if we want to use auto cener in horizonatall we need to set some hight,
+        automaticly will be 100%, full browser's window */
+        height: 100%;
+        /* this mean, everythin inside this component will be display with flex rules */
+        display: flex;
+        /* how components shuold be display, now we set inline not in column */
+        flex-direction: column;
+        /* Every components will be moved to center in vertical */
+        justify-content: center;
+        /* and this prametr move component to center but in horizontal */
+        align-items: center;
+        text-align: center;
+    }
+    
+    .pills {
+        /* if we do not set 100% width then div inside container will have size 
+        of components inside and then justify will be don't work */
+        width: 100%;
+        /* this parameter set some like margin around component inside and move them
+        to center with space between them */
+        justify-content: space-around;
+        /* And here components will be inline */
+        flex-direction: row;
+    }
+    
+    .item {
+        padding: 20px;
+        transition: all 0.2s;
+    }
+    
+    .item:first-child {
+        background-color: cornflowerblue;
+        color: red;
+    }
+    
+    .item:last-child {
+        background-color: coral;
+        color: blue;
+    }
+    
+    .item:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <!-- display as flex in column, first fontainer -->
+        <h1>Neo, what pill you choose?</h1>
+        <div class="pills">
+            <!-- display as flex in row, second container inside container -->
+            <div class="item">Blue pill</div>
+            <div class="item">Red pill</div>
+        </div>
+    </div>
+</body>
+
+</html>

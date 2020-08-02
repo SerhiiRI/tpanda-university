@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This import style from other file but we can add style into html inside <style> tags -->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <title>My page</title>
+</head>
+<style>
+    /* Style by id */
+    
+    #box {
+        margin-left: 10%;
+        margin-right: 10%;
+        /* same be */
+        /* matrgin: top_and_bottom left_and_right */
+        /* if we use it, upper margin will be overwritten */
+        margin: 0 10%;
+        /* and same be */
+        /* matrgin: top right bottom left */
+        /* if we use it again, upper margin will be overwritten again*/
+        margin: 0 10% 0 10%;
+        /* everything component inside will have parameter "text-align: center", it's a inheritance */
+        text-align: center;
+    }
+    /* Style by tag */
+    
+    h1 {
+        font-size: 3em;
+    }
+    
+    p {
+        text-align: left;
+        color: blue;
+    }
+    /* style in hierarchy */
+    
+    article p {
+        /* every <p> tag inside article will be overwrite with this style. BUT! still global tag style p is more strength because work on all p tag, so still color will be inheritance, not overwritted by default styles */
+        text-align: right;
+        font-size: 2em;
+    }
+    /* style by class */
+    
+    .freestyla {
+        background-color: #ac3;
+        color: aqua;
+    }
+    
+    .wacmacaphone {
+        color: rgba(255, 255, 255, 1);
+        border: dotted 2px rgba(0, 0, 0);
+    }
+    
+    .freestyla h4 {
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        color: #ffffff;
+    }
+    
+    .divception div div div {
+        color: #ca4;
+    }
+    
+    footer {
+        width: 300px;
+        margin: auto;
+    }
+    
+    footer * {
+        /* star in hierarchy means all components inside */
+        text-align: center;
+    }
+    
+    footer *:not(h1) {
+        /* :not(h1) means all without h1 */
+        font-size: 1em;
+    }
+</style>
+
+<body>
+    <div id="box">
+        <h1>Hello HTML!</h1>
+        <p>My web content</p>
+        <section>
+            <p>Some lorem ipsum.</p>
+        </section>
+        <article>
+            <p>Nice to meat you!</p>
+        </article>
+        <h2 class="freestyla">My defineted style by class</h2>
+        <h3 class="freestyla wacmacaphone">Other defineted style by combine class</h3>
+        <!-- &lt; it's just a symbol < in other code and &gt; same it's just > -->
+        <h4>Default &lt;h4&gt; tag</h4>
+        <div class="freestyla">
+            <h4>And hierarchy style in tag started by used class name.</h4>
+        </div>
+        <div class="divception">
+            div 1
+            <div>
+                div 2
+                <div>
+                    div3
+                    <div>
+                        I like trains = ^ v ^ =
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <h1>Be Creative</h1>
+    <h2>It is all what we want</h2>
+    <p>Traspanda-Team</p>
+</footer>
+
+</html>

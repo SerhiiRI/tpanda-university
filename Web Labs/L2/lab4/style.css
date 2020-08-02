@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff  url(qq.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: monospace;
+}
+
+.navlinks{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px;
+  background-color: rgb(121,82.179);
+  height:auto;
+  flex-wrap: wrap;
+
+}
+
+.leftmenu{
+  padding: 10px;
+  flex-shrink: 0;
+
+}
+
+.leftmenu li{
+  display: inline-block;
+  padding: 5px;
+
+}
+
+.leftmenu li a{
+  text-decoration: none;
+  color: rgb(236,231,244);
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.rightmenu{
+  margin-left: auto;
+  padding: 5px;
+}
+
+.rightmenu li{
+  display: inline-block;
+  padding: 5px;
+}
