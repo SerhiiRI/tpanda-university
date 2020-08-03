@@ -4,7 +4,7 @@ body {
   background: #ffffff  url(qq.jpg) ;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: monospace;
+  background-size: cover;
 }
 
 .navlinks{
