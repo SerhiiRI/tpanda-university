@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff  url(4.jpeg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: cursive;
+  color: white;
+  box-sizing: border-box;
+}
+
+.card-container{
+  width: 300px;
+  height: 430px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0px 1px 14px 1px #000;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upper-container{
+  height: 150px;
+  background: #6C5B7B;
+}
+
+.upper-container h2{
+  left: 40%;
+  color: black;
+}
+
+.image-container img{
+  background: white;
+  width: auto;
+  height: 150px;
+  border-radius: 2px;
+
+
+}
+
+.lower-container{
+  height: 280px;
+  background: #fff;
+  padding: 0px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.lower-container h3, h4{
+  box-sizing: border-box;
+  background:   #83AF9B;
+}
+
+.lower-container p{
+  font-size: 16px;
+  color: #6C5B7B;
+  margin-bottom:30px;
+}
+.lower-container .btn{
+
+  padding: 12px 20px;
+  background: #83AF9B;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all .3s ease-in;
+}
+.lower-container .btn:hover{
+  background: transparent;
+  color: #83AF9B;
+  border: 2px solid #83AF9B;
+}
