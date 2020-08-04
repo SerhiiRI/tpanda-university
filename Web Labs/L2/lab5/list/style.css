@@ -36,8 +36,7 @@ label{
   height: 70px;
   width: 100%;
   display: block;
-  border-bottom: 1px solid #2A363B;
-  color: #2A363B ;
+  color: #2A363B;
   text-transform: capitalize;
   font-weight: 900;
   font-size:11px;
@@ -55,7 +54,7 @@ label:before{
   width: 20px;
   height: 20px;
   background: #2A363B;
-  display: white;
+  display: block;
   position: absolute;
   border-radius: 100%;
   right:20px;
@@ -67,8 +66,7 @@ label:before{
 #label-2:checked~label[for=label-2],
 #label-3:checked~label[for=label-3],
 #label-4:checked~label[for=label-4]{
-  background:#2A363B;
-  border-bottom: 1px solid grey;
+  background: #2A363B;
   color: #F8B195;
 }
 
