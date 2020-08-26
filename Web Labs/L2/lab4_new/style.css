@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff  url(qq.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+}
+
+.nav_links{
+  background-color: #222222;
+  opacity: 0.9;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.topmenu li{
+  display: inline-block;
+  margin:  0px 15px 0px 15px;
+
+}
+
+.topmenu li :hover{
+  background-color: #555555;
+  display: inline-block;
+}
+
+.topmenu img{
+  width: 12px;
+  height: 12px;
+}
+
+.navlinks{
+  background: #333333;
+  opacity: 0.6;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+
+.leftmenu{
+  margin: 0px 15px 0px 15px;
+  padding: 0px;
+
+}
+
+.leftmenu li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.leftmenu li a{
+  text-decoration: none;
+  color: rgb(236,231,244);
+  font-weight: 400;
+}
+
+.leftmenu li a :hover{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+.rightmenu{
+  margin-top: 10px;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.rightmenu li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.rightmenu li  img{
+  weight: 14px;
+  height: 14px;
+}
+
+.nav_sidebar{
+  background: #333333;
+  opacity: 0.6;
+  position: absolute;
+  top: 115px;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 360px;
+}
+
+
+.nav_sidebar a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: 'Hammersmith One', sans-serif;
+  display: table;
+  width: 360px;
+  margin: 0px 0px 10px 0px;
+}
+
+.nav_sidebar img{
+  position: relative;
+  width: 26px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  top: 2px;
+  margin: 0px 20px 0px 25px;
+}
+
+.nav_sidebar .item .sub-menu{
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.3s;
+  transition-property: background, max-height;
+}
+
+.nav_sidebar .item:target .sub-menu{
+  max-height: 500px;
+}
+
+.nav_sidebar .item .sub-menu img{
+  position: relative;
+  width: 26px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  top: 2px;
+  margin: 0px 20px 0px 70px
+}
+
+
+.nav_sidebar .nav-text {
+  top: -4px;
+  position: relative;
+
+}
+
+.nav_sidebar a:hover{
+  color: #fff;
+  background-color: #222222;
+}
+
+.nav_sidebar{
+  width: 70px;
+  overflow: hidden;
+  -webkit-transition:width .2s linear;
+  transition: width .2s linear;
+}
+.nav_sidebar:hover{
+  width:360px;
+}
+
+.scrollbar{
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.scrollbar:hover{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 18px;               /* width of the entire scrollbar */
+}
+#style-1::-webkit-scrollbar-track {
+  background: #444444;        /* color of the tracking area */
+}
+#style-1::-webkit-scrollbar-thumb {
+ background-color: #222222;    /* color of the scroll thumb */
+
+}
