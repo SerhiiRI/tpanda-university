@@ -1,0 +1,296 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff  url(qq.jpg) ;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+}
+
+.nav_links{
+  background-color: #222222;
+  opacity: 0.9;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px 0px 0px -15px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+ .topmenu_left li{
+  display: inline-block;
+  justify-content: flex-start;
+  margin: 0px 5px 0px 5px;
+}
+
+ .topmenu_left li:hover{
+  background-color: #555555;
+  display: flex;
+  display: inline-block;
+}
+
+ .topmenu_left  img{
+  height: 14px;
+  width: auto;
+}
+
+.topmenu_left .nav_text{
+  color: #f7f7f7;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.nav_links .topmenu li{
+  display: inline-block;
+  justify-content: flex-end;
+  margin:  0px 15px 0px 15px;
+}
+
+.topmenu li :hover{
+  background-color: #555555;
+  display: inline-block;
+}
+
+.topmenu img{
+  width: 14px;
+  height: 14px;
+}
+
+.navlinks{
+  background: #222222;
+  opacity: 0.6;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
+
+.navlinks1{
+  background-color: #222222;
+  opacity: 0.9;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+
+.leftmenu{
+  margin: -15px 20px 0px 20px;
+  padding: 0px;
+
+}
+
+.leftmenu li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.leftmenu li a{
+  text-decoration: none;
+  color: rgb(236,231,244);
+  font-weight: 400;
+}
+
+.leftmenu li a :hover{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+.rightmenu{
+  margin-top: 0px;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.leftmenu  input{
+  width: 500px;
+}
+
+.leftmenu li  img{
+  weight: 14px;
+  height: 14px;
+}
+
+.leftmenu li :hover{
+  background-color: #555555;
+  display: inline-block;
+}
+
+.rightmenu  input{
+  width: 150px;
+}
+
+
+
+.rightmenu li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.rightmenu li  img{
+  weight: 14px;
+  height: 14px;
+}
+
+.rightmenu li :hover{
+  background-color: #555555;
+  display: inline-block;
+}
+
+.leftmenu1{
+  margin: 0px 25px 0px 15px;
+  padding: 0px;
+}
+
+.leftmenu1 li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.leftmenu1 li a{
+  text-decoration: none;
+  color: #adadad;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+.leftmenu1 li a :hover{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+.rightmenu1{
+  margin-top: 20px;
+  margin-left: auto;
+  padding: 5px;
+}
+
+.rightmenu1 li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.rightmenu1 li  img{
+  weight: 14px;
+  height: 14px;
+}
+
+.rightmenu1 li :hover{
+  background-color: #555555;
+  display: inline-block;
+}
+
+.nav_sidebar{
+  background: #222222;
+  opacity: 0.6;
+  position: absolute;
+  top: 84px;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 360px;
+}
+
+.nav_sidebar_right{
+  background: #333333;
+  opacity: 0.6;
+  position: absolute;
+  text-decoration: none;
+  top: 84px;
+  bottom: 0;
+  height: 100%;
+  left: 360px;
+  width: 100%;
+}
+
+.nav_sidebar_right  img{
+  width: 88px;
+  height: auto;
+}
+
+.nav_sidebar_right a{
+  margin: 10px 10px 10px 10px;
+  position:  relative;
+  display:   inline-block;
+  text-decoration: none;
+  color: white;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+
+
+.nav_sidebar a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: 'Hammersmith One', sans-serif;
+  display: table;
+  width: 360px;
+  margin: 0px 0px 10px 0px;
+}
+
+.nav_sidebar img{
+  position: relative;
+  width: 26px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  top: 2px;
+  margin: 0px 20px 0px 25px;
+}
+
+.nav_sidebar .item .sub-menu img{
+  position: relative;
+  width: 26px;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  top: 2px;
+  margin: 0px 20px 0px 70px
+}
+
+
+.nav_sidebar .nav-text {
+  top: -4px;
+  position: relative;
+}
+
+.nav_sidebar a:hover{
+  color: #fff;
+  background-color: #111111;
+}
+
+.scrollbar{
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.scrollbar:hover{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#style-1::-webkit-scrollbar {
+  width: 18px;               /* width of the entire scrollbar */
+}
+#style-1::-webkit-scrollbar-track {
+  background: #333333;        /* color of the tracking area */
+}
+#style-1::-webkit-scrollbar-thumb {
+ background-color: #111111;    /* color of the scroll thumb */
+
+}
