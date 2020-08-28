@@ -129,7 +129,12 @@ body {
   width: 150px;
 }
 
-
+.leftmenu input{
+  background: #444444;
+}
+.rightmenu input{
+  background: #444444;
+}
 
 .rightmenu li{
   display: inline-block;
