@@ -1,0 +1,65 @@
+   body {
+      background: linear-gradient(to top right, #4e4376, #aa4b6b,  #6b6b83, #3b8d99);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: monospace;
+      font-size: 140%;
+      text-align: justify;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   div{
+       padding: 2%;
+       margin: 2%;
+   }
+
+   .patterns{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+    
+   }
+
+   .block{
+       background-color:  #6b6b83;
+   }
+
+   #parts{
+       margin: 4%;
+       column-gap: 5%;
+       column-count: 3;
+       column-width: 30%;
+       text-align: justify;
+   }
+   
+   .myprogressBar {
+       padding: 0.8%;
+       margin: 0%;
+       background-color: #3b8d99; 
+       text-align: center; 
+       color:  #4e4376;
+   }
+
+
+   .dropdown {
+       margin: 0%;
+       padding: 0%;
+       float: left;
+       overflow: hidden;
+   }
+
+   .dropdown .dropbtn {
+       cursor: pointer;
+       font-size: 16px;  
+       border: none;
+       outline: none;
+       color: white;
+       padding: 14px 16px;
+       background-color: inherit;
+       margin: 0;
+   }

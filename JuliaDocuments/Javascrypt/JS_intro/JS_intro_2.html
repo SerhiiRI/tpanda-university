@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="JS_intro.css">
+    
+  </head>
+
+  <body>
+    <div>
+      <div class="loginForm">
+	<form id="form_id" method="post" name="myform">
+	  <label>User Name:</label>
+	  <input type="text" name="username" id="username"/>
+	  <label>Password:</label>
+	  <input type="password" name="password" id="password"/>
+	  <input type="button" value="Login" id="submit" onclick="validate()"/>
+	</form>
+      </div>
+      <div id="newForm">
+	<div id="timer"></div>
+	<div>
+	  <input type="button" value="Balance" id="balance" onclick="balance()"/>
+	</div>
+	<div>
+	  <input type="button" value="Set Money" id="setMoney" onclick="setMoney()"/>
+	</div>
+	<div>
+	  <input type="button" value="Get Money" id="getMoney" onclick="getMoney()"/>
+	</div>
+	<div class="block">
+	  <input placeholder="Enter name of user to sent money:" id="name_us" name="name_us" />
+	  <input placeholder="Enter value:" id="value" name="value" />
+	  <div id = "resault"></div>
+	</div>
+	<div class="logout">
+	  <input type="button" value="Logout" id="logout" onclick="logout()"/>
+	</div>
+      </div>
+    </div>
+    <script src="JS_intro_2.js"></script>
+  </body>
+</html>
+
+

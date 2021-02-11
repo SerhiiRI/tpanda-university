@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="JS_intro.css">
+  </head>
+
+  <body>
+    <div>
+      <div class = "patterns">
+	<div id ="pattern1"></div>
+	<div id ="pattern2"></div>
+	<div id ="pattern3"></div>
+	<div id ="pattern4"></div>
+      </div>
+      <div class = "block">
+	<input id=demoInput type=number min=10 max=110>
+	<button onclick="increment()">+</button>
+	<button onclick="decrement()">-</button>
+      </div>
+      <div>
+	<input type='text' id='input' />
+	<input type='button' value='add to list' id='addList' />
+	<ul id='list'>
+	  <li><b>My Notes</b></li> 
+	</ul>
+      </div>
+      <div class = "block">
+	<p id = "textToReverse">"Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?"</p>
+	<p id = "textReverse"></p>
+      </div>
+      <div class = "block" >
+	<div id="Progress_Status"> 
+	  <div class = "myprogressBar"  id="myprogressBar1">1%</div>
+	  <div class = "myprogressBar"  id="myprogressBar2">1%</div>
+	  <div class = "myprogressBar" id="myprogressBar3">1%</div>
+	</div> 
+	<button onclick="update()">Start Download</button>
+	  <input type = "text"  id = "refreshProgress">
+      </div>
+      <div>
+	<ul id='listColors'>
+	  <li><b>My Colors</b></li> 
+	</ul>
+	<div id="spinner"></div>
+      </div>
+    </div>
+    <script src="JS_intro_1.js"></script>
+  </body>
+</html>
+
