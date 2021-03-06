@@ -1,0 +1,61 @@
+<html>
+    <body>
+        <hr>
+            <h1>Hi, {{user.firstname}}</h1>
+            <h2> {{p}}</h2>
+            <form method ="post" action="/index">
+                <div>
+                    {% for u in list_u  %}
+                    <div>
+                        {% if per == 'rcdu' or per == 'ru' %}
+                        <input type = "checkbox" id = "{{u.login}}" name="box" value = "{{u.login}}" >
+                        <a href="/edit?user={{u.login}}">Edit</a>
+                        {% endif %}
+                        <label >{{u.login}}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div>
+                    {% if per == 'r' or per == 'rcdu' or per == 'ru' %}
+                         <button type="submit" name="logout" value="logout" > Log out </button>
+                    {% endif %}
+                    {% if per == 'rcdu' or per == 'ru' %}
+                         <button type="submit" name="show" value="show" > Show </button>
+                    {% endif %}
+                    {% if per == 'rcdu' %}
+                         <button type="submit" name="delete" value="delete" > Delete</button>
+                         <button type="submit" name="create" value="create" > Create</button>
+                    {% endif %}
+                </div>
+            </form>
+                {% if per == 'rcdu' or per == 'ru' %}
+                <div>
+                    <table border="1" cellpadding="4"  >
+                        <tr>
+                            <td>Login</td>
+                            <td>Password</td>
+                            <td>Nickname</td>
+                            <td>Firstname</td>
+                            <td>Lastname</td>
+                            <td>Permission</td>
+                            <td>Age</td>
+                        </tr>
+                    {% for l in new_list  %}
+                        <tr>
+                            <td>{{l.login}}</td>
+                            <td>{{l.password}}</td>
+                            <td>{{l.nickname}}</td>
+                            <td>{{l.firstname}}</td>
+                            <td>{{l.lastname}}</td>
+                            <td>{{l.permission}}</td>
+                            <td>{{l.age}}</td>
+                        </tr>
+                    {% endfor %}
+                    </table>
+                </div>
+                {% endif %}
+    </body>
+</html>
+
+
+

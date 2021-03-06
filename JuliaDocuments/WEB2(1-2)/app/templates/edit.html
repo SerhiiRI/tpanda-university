@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    <div >
+        <div><label >Login</label></div>
+        <div style="margin:20px">
+            <input type="text" placeholder="Login" name="login" value="{{ usernow.login }}">
+        </div>
+        <div><label >Password</label></div>
+        <div style = "margin:20px">
+            <input type="password" placeholder="Password" name="password" value="{{ usernow.password }}">
+        </div>
+        <div><label >Nickname</label></div>
+        <div style="margin:20px">
+            <input type="text" placeholder="Nickname" name="nickname" value="{{ usernow.nickname }}">
+        </div>
+        <div><label >Firstname</label></div>
+         <div style="margin:20px">
+            <input type="text" placeholder="Firstname" name="firstname" value="{{ usernow.firstname }}">
+        </div>
+        <div><label >Lastname</label></div>
+        <div style="margin:20px">
+            <input type="text" placeholder="Lastname" name="lastname" value="{{ usernow.lastname }}">
+        </div>
+        <div><label >Permission</label></div>
+        <div style="margin:20px">
+            <input type="text" placeholder="Permission" name="permission" value="{{ usernow.permission }}">
+        </div>
+        <div><label >Age</label></div>
+         <div style="margin:20px">
+            <input type="text" placeholder="Age" name="age" value="{{ usernow.age }}">
+        </div>
+        <div><label >Id</label></div>
+         <div style="margin:20px">
+            <input type="text" placeholder="Id" name="id" value="{{ usernow.id_user }}">
+        </div>
+        <button type="submit" name="save" value="save" > Save </button>
+        <label>{{invalid}}</label>
+    </div>
+</form>
+</body>
+</html>
